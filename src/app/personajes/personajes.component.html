@@ -1,0 +1,15 @@
+<h1 class="titulo">PERSONAJES</h1>
+
+<div *ngIf="characters!=null; else espera">
+  <div class="d-flex">
+    <div class="card me-3 mt-3" style="width: 20rem; text-align: center;" *ngFor="let c of characters">
+      <img src="{{c.image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{c.name}}</h5>
+        <a href="#" class="btn btn-warning">See More</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #espera>Esperando datos...</ng-template>
