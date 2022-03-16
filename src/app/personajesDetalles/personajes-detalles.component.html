@@ -1,0 +1,25 @@
+<h1 class="titulo">DETALLES PERSONAJES</h1>
+
+<div *ngIf="characters!=null; else espera">
+  <div class="card mb-3">
+    <div class="row g-0">
+      <div class="col-md-4">
+        <img src="{{characters.image}}" class="card-img-top" alt="...">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h5 class="card-title">Name: {{characters.name}}</h5>
+          <p class="card-text">Status: {{characters.status}}</p>
+          <p class="card-text">Species: {{characters.species}}</p>
+          <p class="card-text">Gender: {{characters.gender}}</p>
+          <p class="card-text">Origin: {{characters.origin.name}}</p>
+          <p class="card-text">Location: {{characters.location.name}}</p>
+          <p class="card-text">Created: {{characters.created}}</p>
+          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<ng-template #espera>Esperando datos...</ng-template>
+

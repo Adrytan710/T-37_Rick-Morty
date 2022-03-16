@@ -1,0 +1,9 @@
+.titulo {
+  text-align: center;
+}
+
+.card {
+  width: 20rem;
+  text-align: center;
+  margin-left: 10px;
+}
