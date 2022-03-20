@@ -1,0 +1,20 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <div>
+      <a class="navbar-brand fs-3 p-5" href="/">Rick & Morty</a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="ms-auto"></ul>
+        <a class="navbar-brand fs-6 p-1" href="/home">Home</a>
+        <a class="navbar-brand fs-6 p-1" href="/characters">Characters</a>
+        <a class="navbar-brand fs-6 p-1" href="/characters/add">Add Characters</a>
+        <a class="navbar-brand fs-6 p-1" href="/about">About</a>
+      <form class="d-flex input-group w-auto p-2">
+        <input type="search" class="form-control" placeholder="Search..." aria-label="Search"/>
+        <span class="input-group-text border-0 d-none d-lg-flex"><i class="fa fa-search"></i></span>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<router-outlet></router-outlet>

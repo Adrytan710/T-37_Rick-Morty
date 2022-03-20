@@ -1,0 +1,15 @@
+<h1 class="titulo">PERSONAJES</h1>
+
+<div *ngIf="personajes!=null; else espera">
+  <div class="d-flex">
+    <div class="card me-3 mt-3" *ngFor="let per of personajes">
+      <img src="{{per.image}}" class="card-img-toer" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">{{per.name}}</h5>
+        <a href="/characters/{{per.id}}" class="btn btn-warning">See More</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<ng-template #espera>Esperando datos...</ng-template>

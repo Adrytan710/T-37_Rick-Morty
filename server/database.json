@@ -1,0 +1,58 @@
+{
+  "personajes": [
+    {
+      "name": "Rick Sanchez",
+      "gender": "Male",
+      "species": "Human",
+      "origin": "Earth",
+      "image": "https://rickandmortyapi.com/api/character/avatar/1.jpeg",
+      "status": true,
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Morty Smith",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "origin": "Citadel of Ricks",
+      "image": "https://rickandmortyapi.com/api/character/avatar/2.jpeg"
+    },
+    {
+      "name": "Summer Smith",
+      "gender": "Female",
+      "species": "Human",
+      "origin": "Earth (Replacement Dimension)",
+      "image": "https://rickandmortyapi.com/api/character/avatar/3.jpeg",
+      "status": false,
+      "id": 3
+    },
+    {
+      "name": "Beth Smith",
+      "gender": "Female",
+      "species": "Human",
+      "origin": "Earth (Replacement Dimension)",
+      "image": "https://rickandmortyapi.com/api/character/avatar/4.jpeg",
+      "status": false,
+      "id": 4
+    },
+    {
+      "id": 5,
+      "name": "Jerry Smith",
+      "status": "Alive",
+      "species": "Human",
+      "gender": "Male",
+      "origin": "Earth (Replacement Dimension)",
+      "image": "https://rickandmortyapi.com/api/character/avatar/5.jpeg"
+    },
+    {
+      "name": "Adri",
+      "gender": "Male",
+      "species": "Human",
+      "origin": "Earth",
+      "image": "https://rickandmortyapi.com/api/character/avatar/7.jpeg",
+      "status": true,
+      "id": 6
+    }
+  ]
+}
